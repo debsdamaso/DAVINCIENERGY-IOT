@@ -1,0 +1,233 @@
+{
+    "channel": {
+      "id": 2756384,
+      "name": "Monitor de Energia",
+      "latitude": "0.0",
+      "longitude": "0.0",
+      "field1": "Voltage (V)",
+      "field2": "Current (A)",
+      "field3": "Power (W)",
+      "field4": "Efficiency (%)",
+      "created_at": "2024-11-21T04:49:11Z",
+      "updated_at": "2024-11-21T06:40:20Z",
+      "last_entry_id": 27
+    },
+    "feeds": [
+      {
+        "created_at": "2024-11-21T04:52:33Z",
+        "entry_id": 1,
+        "field1": "220.29",
+        "field2": "0.97",
+        "field3": "213.68",
+        "field4": "93.60"
+      },
+      {
+        "created_at": "2024-11-21T04:52:50Z",
+        "entry_id": 2,
+        "field1": "219.46",
+        "field2": "0.98",
+        "field3": "215.07",
+        "field4": "92.99"
+      },
+      {
+        "created_at": "2024-11-21T04:53:06Z",
+        "entry_id": 3,
+        "field1": "219.15",
+        "field2": "0.98",
+        "field3": "214.77",
+        "field4": "93.12"
+      },
+      {
+        "created_at": "2024-11-21T04:54:11Z",
+        "entry_id": 4,
+        "field1": "219.80",
+        "field2": "0.90",
+        "field3": "197.82",
+        "field4": "101.10"
+      },
+      {
+        "created_at": "2024-11-21T04:58:10Z",
+        "entry_id": 5,
+        "field1": "220.53",
+        "field2": "1.07",
+        "field3": "235.97",
+        "field4": "84.76"
+      },
+      {
+        "created_at": "2024-11-21T04:58:26Z",
+        "entry_id": 6,
+        "field1": "220.79",
+        "field2": "1.19",
+        "field3": "262.74",
+        "field4": "76.12"
+      },
+      {
+        "created_at": "2024-11-21T04:58:51Z",
+        "entry_id": 7,
+        "field1": "219.54",
+        "field2": "0.84",
+        "field3": "184.41",
+        "field4": "108.45"
+      },
+      {
+        "created_at": "2024-11-21T04:59:07Z",
+        "entry_id": 8,
+        "field1": "220.04",
+        "field2": "0.87",
+        "field3": "191.43",
+        "field4": "104.47"
+      },
+      {
+        "created_at": "2024-11-21T04:59:22Z",
+        "entry_id": 9,
+        "field1": "220.50",
+        "field2": "1.07",
+        "field3": "235.94",
+        "field4": "84.77"
+      },
+      {
+        "created_at": "2024-11-21T04:59:40Z",
+        "entry_id": 10,
+        "field1": "220.79",
+        "field2": "1.01",
+        "field3": "223.00",
+        "field4": "89.69"
+      },
+      {
+        "created_at": "2024-11-21T04:59:56Z",
+        "entry_id": 11,
+        "field1": "220.65",
+        "field2": "0.94",
+        "field3": "207.41",
+        "field4": "96.43"
+      },
+      {
+        "created_at": "2024-11-21T05:00:12Z",
+        "entry_id": 12,
+        "field1": "219.19",
+        "field2": "0.89",
+        "field3": "195.08",
+        "field4": "102.52"
+      },
+      {
+        "created_at": "2024-11-21T05:03:44Z",
+        "entry_id": 13,
+        "field1": "220.09",
+        "field2": "1.13",
+        "field3": "248.70",
+        "field4": "80.42"
+      },
+      {
+        "created_at": "2024-11-21T05:04:00Z",
+        "entry_id": 14,
+        "field1": "220.30",
+        "field2": "0.88",
+        "field3": "193.86",
+        "field4": "103.17"
+      },
+      {
+        "created_at": "2024-11-21T05:20:29Z",
+        "entry_id": 15,
+        "field1": "219.03",
+        "field2": "1.14",
+        "field3": "249.69",
+        "field4": "80.10"
+      },
+      {
+        "created_at": "2024-11-21T05:20:45Z",
+        "entry_id": 16,
+        "field1": "219.12",
+        "field2": "1.12",
+        "field3": "245.41",
+        "field4": "81.49"
+      },
+      {
+        "created_at": "2024-11-21T05:22:31Z",
+        "entry_id": 17,
+        "field1": "219.61",
+        "field2": "1.06",
+        "field3": "232.79",
+        "field4": "85.92"
+      },
+      {
+        "created_at": "2024-11-21T06:04:59Z",
+        "entry_id": 18,
+        "field1": "220.99",
+        "field2": "1.17",
+        "field3": "258.56",
+        "field4": "77.35"
+      },
+      {
+        "created_at": "2024-11-21T06:05:15Z",
+        "entry_id": 19,
+        "field1": "220.93",
+        "field2": "1.13",
+        "field3": "249.65",
+        "field4": "80.11"
+      },
+      {
+        "created_at": "2024-11-21T06:05:31Z",
+        "entry_id": 20,
+        "field1": "220.94",
+        "field2": "1.10",
+        "field3": "243.03",
+        "field4": "82.29"
+      },
+      {
+        "created_at": "2024-11-21T06:05:47Z",
+        "entry_id": 21,
+        "field1": "219.77",
+        "field2": "1.16",
+        "field3": "254.93",
+        "field4": "78.45"
+      },
+      {
+        "created_at": "2024-11-21T06:06:15Z",
+        "entry_id": 22,
+        "field1": "219.51",
+        "field2": "0.91",
+        "field3": "199.75",
+        "field4": "100.12"
+      },
+      {
+        "created_at": "2024-11-21T06:06:31Z",
+        "entry_id": 23,
+        "field1": "220.83",
+        "field2": "1.13",
+        "field3": "249.54",
+        "field4": "80.15"
+      },
+      {
+        "created_at": "2024-11-21T06:06:47Z",
+        "entry_id": 24,
+        "field1": "220.48",
+        "field2": "1.04",
+        "field3": "229.30",
+        "field4": "87.22"
+      },
+      {
+        "created_at": "2024-11-21T06:34:26Z",
+        "entry_id": 25,
+        "field1": "219.48",
+        "field2": "1.16",
+        "field3": "254.60",
+        "field4": "78.56"
+      },
+      {
+        "created_at": "2024-11-21T06:34:42Z",
+        "entry_id": 26,
+        "field1": "219.14",
+        "field2": "0.89",
+        "field3": "195.03",
+        "field4": "102.55"
+      },
+      {
+        "created_at": "2024-11-21T06:34:58Z",
+        "entry_id": 27,
+        "field1": "219.14",
+        "field2": "0.96",
+        "field3": "210.37",
+        "field4": "95.07"
+      }
+    ]
+  }
