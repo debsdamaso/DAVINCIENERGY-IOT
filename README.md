@@ -9,6 +9,26 @@
 - RM550323 - Paulo Barbosa Neto (2TDSPN)
 - RM552314 - Yasmin Araujo Santos Lopes (2TDSPN)
 
+
+## **Índice**
+- [👨‍👨‍👧‍👧 Equipe DaVinci](#-equipe-davinci)
+- [📚 Descrição da proposta](#-descrição-da-proposta)
+- [🚀 Funcionalidades IoT](#-funcionalidades-iot)
+- [🎯 Requisitos do Desafio](#-requisitos-do-desafio)
+- [📝 Componentes](#-componentes)
+- [✅ Funcionamento](#-funcionamento)
+  - [1. Captura de Dados](#1-captura-de-dados)
+  - [2. Processamento](#2-processamento)
+  - [3. 📊 Visualização dos Dados](#3-visualização-dos-dados)
+  - [4. 💹 Gateway](#4-gateway)
+- [⚙️ Configuração](#️-configuração)
+  - [1. Acesso ao circuito no Wokwi](#1-acesso-ao-circuito-no-wokwi)
+  - [2. Visualização no ThingSpeak](#2-visualização-no-thingspeak)
+  - [3. Configurar ThingSpeak](#3-configurar-thingspeak)
+  - [4. 📽️ VÍDEO DO PROJETO](#4-📽️-VÍDEO-DO-PROJETO)
+
+---
+
 ## 📚 Descrição da proposta
 
 A Da Vinci Energy propõe uma solução inteligente para monitorar, controlar e otimizar o consumo de energia elétrica em residências e pequenos comércios. Utilizando dispositivos IoT, analisamos a eficiência energética de aparelhos com base na classificação do INMETRO, ajudando os usuários a:
@@ -34,18 +54,6 @@ A Da Vinci Energy propõe uma solução inteligente para monitorar, controlar e 
 | **Gateway**                                    | Configurado com HTTP, onde o ESP32 envia os dados diretamente ao ThingSpeak.                             |
 | **Protocolos**                                 | Implementação do protocolo HTTP para troca de mensagens entre o ESP32 e a plataforma.                   |
 | **Desenvolvimento em simulador**               | Projeto desenvolvido no Wokwi, atendendo os requisitos de simulação e testes.                            |
-
-## 📊 Visualização dos Dados
-1. **No Serial Monitor**:
-   - Acompanhe tensão, corrente, potência, eficiência e vida útil diretamente pelo monitor serial.
-2. **No Display OLED**:
-   - Veja os dados processados localmente.
-3. **No ThingSpeak**:
-   - Acesse o canal e visualize gráficos e históricos.
-
-<p align="center">
-  <img src="Images/SerialMonitor.jpg" alt="Resultados" width="600" style="margin-right: 10px;"/>
-</p>
 
 
 ## 📝 Componentes
@@ -116,10 +124,20 @@ void avaliarConformidade(float eficienciaReal, float eficienciaInformada, String
 }
 ```
 
-### 3. Exibição
-- Os dados processados são exibidos no display OLED e enviados para o ThingSpeak.
+### 3. 📊 Visualização dos Dados
+1. **No Serial Monitor**:
+   - Acompanhe tensão, corrente, potência, eficiência e vida útil diretamente pelo monitor serial.
+2. **No Display OLED**:
+   - Veja os dados processados localmente.
+3. **No ThingSpeak**:
+   - Acesse o canal e visualize gráficos e históricos.
 
-### 4. Gateway
+<p align="center">
+  <img src="Images/SerialMonitor.jpg" alt="Resultados" width="600" style="margin-right: 10px;"/>
+</p>
+
+
+### 4. 💹 Gateway
 - Os dados são enviados ao ThingSpeak via protocolo HTTP, onde podem ser visualizados em gráficos.
 
 <p align="center">
@@ -139,26 +157,22 @@ Dentro dessa pasta, você encontrará os seguintes arquivos:
 
 Clique no LINK para visualizar e testar o circuito diretamente na plataforma Wokwi.: 
 
-[LINK da Simulação do Circuito](https://wokwi.com/projects/415143736305192961).
+* [LINK da Simulação do Circuito no Wokwi](https://wokwi.com/projects/415143736305192961).
 
 
 ### 2. Visualização no ThingSpeak
-Acompanhe os dados gerados pelo projeto diretamente no gráfico abaixo, exibido em tempo real:
-
-<iframe width="450" height="260" style="border: 1px solid #cccccc;" 
-        src="https://thingspeak.mathworks.com/channels/2756384/charts/1?bgcolor=%23ffffff&color=%23d62020"></iframe>
-
-Caso o gráfico não seja exibido, você pode acessar diretamente o [LINK do ThingSpeak](https://thingspeak.mathworks.com/channels/2756384).
+Acompanhe os dados gerados pelo projeto diretamente pelo link abaixo:
+* [LINK do canal no ThingSpeak](https://thingspeak.mathworks.com/channels/2756384).
 
 
 ### 3. Configurar ThingSpeak
-Substitua `YOUR_API_KEY` pela chave de API de escrita do seu canal no ThingSpeak:
+Caso deseje, substitua `YOUR_API_KEY` pela chave de API de escrita do seu canal no ThingSpeak:
 ```cpp
 const String apiKey = "SUA_API_KEY";
 ```
 
-### 4. 📽️ Video do Projeto
+### 4. 📽️ VÍDEO DO PROJETO
 
 Para visualizar o vídeo no youtube de apresentação do projeto, clique no LINK abaixo:
 
-[📹 LINK do vídeo no YouTube](https://youtube.com/playlist?list=PL1zapSlcAQTdAyAUScqkEolyq5jqjomnd&si=4Yg6hqlYDXdXGVG3)
+* [📹 LINK do vídeo no YouTube](https://www.youtube.com/playlist?list=PL1zapSlcAQTe7HdWwpb2uinI8umRt0d7Z)
