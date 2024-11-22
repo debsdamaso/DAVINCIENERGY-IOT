@@ -48,14 +48,13 @@ A Da Vinci Energy propõe uma solução inteligente para monitorar, controlar e 
 ## 🎯 Requisitos do Desafio
 | **Requisito**                                   | **Como foi atendido**                                                                                     |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| **Sistema IoT com 2 dispositivos**             | Integração de dois sensores (tensão e corrente) simulados por potenciômetros.                            |
+| **Sistema IoT com 2 dispositivos**             | Integração de dois sensores (tensão e corrente) simulados por potenciômetros. **Justificativa**: Devido à ausência de suporte para amperímetros no Wokwi, utilizamos potenciômetros para simular as medições de tensão e corrente. No dispositivo físico, esses elementos serão substituídos por sensores apropriados, como amperímetros não invasivos e transformadores de corrente. |
 | **Hardware**                                   | Utilizamos o ESP32 como microcontrolador principal, juntamente com um display OLED para exibição local.  |
 | **Dashboard**                                  | Dados enviados ao ThingSpeak, funcionando como gateway e painel de visualização em tempo real.           |
 | **Gateway**                                    | Configurado com HTTP, onde o ESP32 envia os dados diretamente ao ThingSpeak.                             |
 | **Protocolos**                                 | Implementação do protocolo HTTP para troca de mensagens entre o ESP32 e a plataforma.                   |
 | **Desenvolvimento em simulador**               | Projeto desenvolvido no Wokwi, atendendo os requisitos de simulação e testes.                            |
 
-**Justificativa**: Devido à ausência de suporte para amperímetros no Wokwi, utilizamos potenciômetros para simular as medições de tensão e corrente. No dispositivo físico, esses elementos serão substituídos por sensores apropriados, como amperímetros não invasivos e transformadores de corrente.
 
 ## 📝 Componentes
 
