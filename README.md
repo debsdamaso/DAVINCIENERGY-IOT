@@ -55,11 +55,14 @@ A Da Vinci Energy propõe uma solução inteligente para monitorar, controlar e 
 | **Protocolos**                                 | Implementação do protocolo HTTP para troca de mensagens entre o ESP32 e a plataforma.                   |
 | **Desenvolvimento em simulador**               | Projeto desenvolvido no Wokwi, atendendo os requisitos de simulação e testes.                            |
 
+**Justificativa**: Devido à ausência de suporte para amperímetros no Wokwi, utilizamos potenciômetros para simular as medições de tensão e corrente. No dispositivo físico, esses elementos serão substituídos por sensores apropriados, como amperímetros não invasivos e transformadores de corrente.
 
 ## 📝 Componentes
+
 - **ESP32**: Microcontrolador principal responsável pela coleta e processamento de dados.
 - **Display OLED (128x64)**: Exibe informações locais em tempo real.
-- **Potenciômetros**: Simulam os sensores de tensão e corrente. Conectados aos pinos 34 e 35.
+- **Potenciômetros**: Simulam os sensores de tensão e corrente durante a fase de simulação no Wokwi.
+  - **Justificativa**: Como o Wokwi não oferece suporte para amperímetros (ou sensores de corrente não invasivos), utilizamos potenciômetros para simular as variações de tensão e corrente no circuito. Na construção física do dispositivo, esses potenciômetros serão substituídos por **amperímetros não invasivos** e outros sensores apropriados para medições precisas.
 - **Conexão Wi-Fi**: Envia os dados ao **ThingSpeak**.
 - **ThingSpeak**: Plataforma utilizada como gateway e dashboard para monitorar os dados.
 
@@ -73,6 +76,10 @@ A Da Vinci Energy propõe uma solução inteligente para monitorar, controlar e 
 - **Tensão**: Simulada por um potenciômetro conectado ao pino analógico 34.
 - **Corrente**: Simulada por um potenciômetro conectado ao pino analógico 35.
 - **Potência**: Calculada usando a fórmula: `P = V * I`
+
+**Nota**: Na construção real do dispositivo, será utilizada uma combinação de sensores, incluindo amperímetros e transformadores de corrente não invasivos, para substituir os potenciômetros e realizar medições precisas em tempo real.
+
+---
 
 ### 2. Processamento
 O ESP32 processa os dados medidos pelos sensores, calcula a eficiência energética e verifica a conformidade com os padrões do **INMETRO**. 
